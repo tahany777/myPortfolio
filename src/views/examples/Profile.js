@@ -23,7 +23,8 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import profile from "assets/img/theme/tahany1.jpg";
+import land from '../../assets/img/theme/landing2.jpg'
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -39,13 +40,7 @@ class Profile extends React.Component {
           <section className="section-profile-cover section-shaped my-0">
             {/* Circles background */}
             <div className="shape shape-style-1 shape-default alpha-4">
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
-              <span />
+              <img src={land} />
             </div>
             {/* SVG separator */}
             <div className="separator separator-bottom separator-skew">
@@ -108,15 +103,15 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
+                          <span className="heading">77</span>
                           <span className="description">Friends</span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
+                          <span className="heading">5</span>
                           <span className="description">Photos</span>
                         </div>
                         <div>
-                          <span className="heading">89</span>
+                          <span className="heading">30</span>
                           <span className="description">Comments</span>
                         </div>
                       </div>
@@ -124,31 +119,31 @@ class Profile extends React.Component {
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Tahany Ali{" "}
+                      <span className="font-weight-light">, 25</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Amman, Jordan
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Innovative Software Developer
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      Hashemite University - Management Information Systems
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                        Innovative Software Developer with a keen eye for detail and a determination to deliver the highest quality . I take great pride in my work , I always try to better myself with every project I work on.
+                        The Main Areas of my experience are:
+                        HTML(5), CSS(3), TailwindCSS, SASS, JavaScript(native and jQuery), React.js , (JSON and Ajax), MySQL(intermediate), PHP(intermediate) and MS Office (Word, Excel, PowerPoint, Outlook).
+                        Concepts:
+                        OOP, Data Structures and Algorithms.
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
