@@ -107,7 +107,7 @@ class Profile extends React.Component {
                           <span className="description">Friends</span>
                         </div>
                         <div>
-                          <span className="heading">5</span>
+                          <span className="heading">3</span>
                           <span className="description">Photos</span>
                         </div>
                         <div>
