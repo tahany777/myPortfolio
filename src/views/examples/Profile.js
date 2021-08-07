@@ -145,9 +145,6 @@ class Profile extends React.Component {
                         Concepts:
                         OOP, Data Structures and Algorithms.
                         </p>
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
-                          Show more
-                        </a>
                       </Col>
                     </Row>
                   </div>
